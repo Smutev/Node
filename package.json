@@ -1,0 +1,19 @@
+{
+  "name": "lesson-1.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env EXT='[\".pdf\", \".js\"]' node index.js --colors='[\"red\", \"green\", \"blue\"]' --deep=2 --path=/Users/aleksandrmutev/Everything --name='*gulpfile'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cross-env": "^7.0.0",
+    "minimist": "^1.2.0"
+  }
+}
+
+
