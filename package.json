@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env EXT='[\".pdf\", \".js\"]' node index.js --colors='[\"red\", \"green\", \"blue\"]' --deep=2 --path=/Users/aleksandrmutev/Everything --name='*gulpfile'",
+    "start": "cross-env EXT='[\".pdf\", \".js\", \".json\"]' node index.js --colors='[\"red\", \"green\", \"blue\"]' --deep=2 --path='./' --search='pack'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

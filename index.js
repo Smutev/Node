@@ -1,17 +1,19 @@
 require("./logger");
-const { EXT } = process.env;
-const EXTArr = JSON.parse(EXT || "[]");
-const { argv } = require("./logger");
-const { finder } = require('./getEnv');
-const reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
-const reHasRegExpChar = RegExp(reRegExpChar.source);
+const { start_path, deep, EXT, search, colors } = require("./parse_params");
 
-function escapeRegExp(string) {
-    string = (string || []).toString();
-    return (string && reHasRegExpChar.test(string))
-        ? string.replace(reRegExpChar, '\\$&')
-        : string;
-}
+const Finder = require("./ee");
 
-finder(argv.path, 0, argv.deep, EXTArr, escapeRegExp(argv.name))(argv.path, 0)
-   .forEach(item => {console.log(item)});
+const fl = new Finder(start_path, deep, EXT, search);
+
+fl.once("started", () => {
+  fl.emit("parse");
+});
+fl.on("file", file => {
+  console.log("Receive file", file);
+});
+fl.on("processing", data => {
+  console.log("Data", data);
+});
+fl.once("finished", () => {
+  console.log("Parse end");
+});
