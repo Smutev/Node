@@ -1,33 +1,60 @@
-const { createWriteStream } = require("fs");
-const { join } = require("path");
-const fileType = require("file-type");
-const readChunk = require("read-chunk");
-const Finder = require("./ee.js");
-const { DEEP, MAX_DEEP, SEARCH, NAME } = require("./data.js");
-require("./addColors.js");
+const http = require("http");
+const PORT = 3000;
+const MESSAGES_PATH_REGEXP = new RegExp("^/messages", "i");
+const {
+  getMessages,
+  getMessageById,
+  updateMessage,
+  deleteMessage,
+  addMessage
+} = require("./controllers");
 
+const server = http.createServer((request, response) => {
+  const { method } = request;
+  const url = new URL(request.url, `http://${request.headers.host}`);
+  const { pathname } = url;
 
-const fl = new Finder(__dirname, DEEP, MAX_DEEP, SEARCH, NAME);
-const ws = createWriteStream(join(__dirname, 'log.txt'));
+  if (pathname === "/") {
+    response.write(`
+            <html>
+                <head>
+                    <title>
+                        Lesson 4
+                    </title>
+                </head>
+                <body>
+                    Hello, world
+                </body>
+            </html>
+        `);
+  } else if (MESSAGES_PATH_REGEXP.test(pathname)) {
+    const route =
+      pathname[pathname.length - 1] === "/"
+        ? pathname.slice(0, pathname.length - 1)
+        : pathname;
+    const url_params = route.split("/");
+    const message_id = url_params[2];
 
-fl.on("started", () => {
-    console.log("Parse start");
-    fl.emit("parse");
+    if (method === "GET") {
+      if (url_params.length === 2) {
+        getMessages(request, response);
+      } else {
+        getMessageById(message_id, request, response);
+      }
+    } else if (method === "POST") {
+      addMessage(request, response);
+    } else if (method === "PUT" && message_id) {
+      updateMessage(message_id, request, response);
+    } else if (method === "DELETE" && message_id) {
+      deleteMessage(message_id, request, response);
+    }
+  } else {
+    response.statusCode = 404;
+    response.end(JSON.stringify({ message: "not found" }));
+  }
 });
 
-fl.on("file", file => {
-    console.log("Received file: ", file);
-    (async () => {
-        const buffer = readChunk.sync(file, 0, 4100);
-        console.log("From FileType: ", await fileType.fromBuffer(buffer));
-        ws.write(file);
-    })();
-});
-
-fl.on("processing", data => {
-    console.log("Processing data: ", JSON.stringify(data));
-});
-
-fl.on("finished", () => {
-    console.log("Parse end");
+server.listen(PORT, "127.0.0.1", () => {
+  const address = server.address();
+  console.log("Web Server started on port:", address.port);
 });
