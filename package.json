@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Smutev/Node/issues"
   },
-  "homepage": "https://github.com/Smutev/Node#readme"
+  "homepage": "https://github.com/Smutev/Node#readme",
+  "devDependencies": {
+    "file-type": "^14.2.0"
+  },
+  "dependencies": {
+    "moment": "^2.25.3"
+  }
 }
