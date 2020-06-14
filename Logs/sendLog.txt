@@ -1,0 +1,499 @@
+
+Start sending: Sun Jun 14 2020 22:34:26 GMT+0300 (Eastern European Summer Time)
+
+         url: /
+
+Start sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+         url: /
+Finished sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+        Time spent: 0.007 sec
+        Status code: 304
+Start sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+         url: /
+
+Start sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+         url: /css/style.css
+
+Start sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+         url: /scripts/client.js
+Finished sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+        Time spent: 0.002 sec
+        Status code: 304
+Start sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+         url: /css/style.css
+Finished sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+        Time spent: 0.002 sec
+        Status code: 304
+Start sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+         url: /scripts/client.js
+
+Start sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+         url: /messages
+Finished sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+        Time spent: 0.003 sec
+        Status code: 304
+Start sending: Sun Jun 14 2020 22:35:01 GMT+0300 (Eastern European Summer Time)
+
+         url: /messages
+
+Start sending: Sun Jun 14 2020 22:39:26 GMT+0300 (Eastern European Summer Time)
+
+         url: /
+Finished sending: Sun Jun 14 2020 22:39:26 GMT+0300 (Eastern European Summer Time)
+
+        Time spent: 0.010 sec
+        Status code: 200
+Start sending: Sun Jun 14 2020 22:39:26 GMT+0300 (Eastern European Summer Time)
+
+         url: /
+
+Start sending: Sun Jun 14 2020 22:39:27 GMT+0300 (Eastern European Summer Time)
+
+         url: /css/style.css
+
+Start sending: Sun Jun 14 2020 22:39:27 GMT+0300 (Eastern European Summer Time)
+
+         url: /scripts/client.js
+Finished sending: Sun Jun 14 2020 22:39:27 GMT+0300 (Eastern European Summer Time)
+
+        Time spent: 0.004 sec
+        Status code: 200Finished sending: Sun Jun 14 2020 22:39:27 GMT+0300 (Eastern European Summer Time)
+
+        Time spent: 0.003 sec
+        Status code: 200
+Start sending: Sun Jun 14 2020 22:39:27 GMT+0300 (Eastern European Summer Time)
+
+         url: /css/style.css
+
+Start sending: Sun Jun 14 2020 22:39:27 GMT+0300 (Eastern European Summer Time)
+
+         url: /scripts/client.js
+
+Start sending: Sun Jun 14 2020 22:39:27 GMT+0300 (Eastern European Summer Time)
+
+         url: /messages
+Finished sending: Sun Jun 14 2020 22:39:27 GMT+0300 (Eastern European Summer Time)
+
+        Time spent: 0.003 sec
+        Status code: 200
+Start sending: Sun Jun 14 2020 22:39:27 GMT+0300 (Eastern European Summer Time)
+
+         url: /messages
+
+Start: Sun Jun 14 2020 22:56:09 GMT+0300 (Eastern European Summer Time)
+
+         Url: /index.css
+Finish: Sun Jun 14 2020 22:56:09 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.008 s.
+        Status Code: 404
+Start: Sun Jun 14 2020 22:56:09 GMT+0300 (Eastern European Summer Time)
+
+         Url: /index.css
+
+Start: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+Finish: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.004 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+
+Start: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+
+Start: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+Finish: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.001 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+Finish: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.005 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+
+Start: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+Finish: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.003 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:56:13 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+
+Start: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+Finish: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.005 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+
+Start: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+
+Start: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+Finish: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.001 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+Finish: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.001 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+
+Start: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+Finish: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.002 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 22:59:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+
+Start: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+Finish: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.005 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+
+Start: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+
+Start: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+Finish: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.001 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+Finish: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.001 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+
+Start: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+Finish: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.004 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 22:59:30 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+
+Start: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+Finish: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.005 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+
+Start: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+
+Start: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+Finish: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.002 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+Finish: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.004 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+
+Start: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+Finish: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.004 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 22:59:55 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+
+Start: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+Finish: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.006 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+
+Start: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+Finish: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.001 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+
+Start: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+Finish: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.005 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+
+Start: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+Finish: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.003 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 23:00:07 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+
+Start: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+Finish: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.004 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+
+Start: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+
+Start: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+Finish: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.001 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+Finish: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.005 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+
+Start: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+Finish: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.003 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 23:00:18 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+
+Start: Sun Jun 14 2020 23:00:39 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+Finish: Sun Jun 14 2020 23:00:39 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.006 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:00:39 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+
+Start: Sun Jun 14 2020 23:00:40 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+
+Start: Sun Jun 14 2020 23:00:40 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+Finish: Sun Jun 14 2020 23:00:40 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.005 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:00:40 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+Finish: Sun Jun 14 2020 23:00:40 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.006 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 23:00:40 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+
+Start: Sun Jun 14 2020 23:00:40 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+Finish: Sun Jun 14 2020 23:00:40 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.004 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 23:00:40 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+
+Start: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+Finish: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.005 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+
+Start: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+Finish: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.001 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+
+Start: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+Finish: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.002 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+
+Start: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+Finish: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.004 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 23:03:29 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+
+Start: Sun Jun 14 2020 23:08:02 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+Finish: Sun Jun 14 2020 23:08:02 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.005 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:08:02 GMT+0300 (Eastern European Summer Time)
+
+         Url: /
+
+Start: Sun Jun 14 2020 23:08:02 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+
+Start: Sun Jun 14 2020 23:08:02 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+Finish: Sun Jun 14 2020 23:08:02 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.001 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:08:02 GMT+0300 (Eastern European Summer Time)
+
+         Url: /css/style.css
+Finish: Sun Jun 14 2020 23:08:02 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.001 s.
+        Status Code: 304
+Start: Sun Jun 14 2020 23:08:02 GMT+0300 (Eastern European Summer Time)
+
+         Url: /scripts/client.js
+
+Start: Sun Jun 14 2020 23:08:03 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
+Finish: Sun Jun 14 2020 23:08:03 GMT+0300 (Eastern European Summer Time)
+
+        Spent: 0.002 s.
+        Status Code: 200
+Start: Sun Jun 14 2020 23:08:03 GMT+0300 (Eastern European Summer Time)
+
+         Url: /messages
