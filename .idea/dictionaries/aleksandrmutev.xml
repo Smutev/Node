@@ -2,6 +2,7 @@
   <dictionary name="aleksandrmutev">
     <words>
       <w>bcrypt</w>
+      <w>filetype</w>
     </words>
   </dictionary>
 </component>
