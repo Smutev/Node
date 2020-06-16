@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9594079f-f733-42f2-a34e-8d126e6a09a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/node.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/aleksandrmutev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/aleksandrmutev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse_params.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,15 +45,17 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public/assets" />
+      <recent name="$PROJECT_DIR$/public/assets/fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/functions" />
       <recent name="$PROJECT_DIR$/controllers/functions" />
       <recent name="$PROJECT_DIR$/assets/scripts" />
       <recent name="$PROJECT_DIR$/assets/img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/assets" />
-      <recent name="$PROJECT_DIR$/public/assets/fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,6 +122,7 @@
       <workItem from="1592165968282" duration="838000" />
       <workItem from="1592324177473" duration="234000" />
       <workItem from="1592324549994" duration="17000" />
+      <workItem from="1592324832682" duration="1877000" />
     </task>
     <servers />
   </component>
