@@ -1,3 +1,5 @@
+const { createWriteStream } = require("fs");
+const { Logger } = require("./utils/logger");
 const http = require("http");
 const fs = require("fs");
 const { join, extname } = require("path");
@@ -12,6 +14,7 @@ const {
   addMessage,
   messages
 } = require("./controllers");
+let loggingInterval;
 
 //Создание сервера
 const server = http.createServer(async (request, response) => {
@@ -37,43 +40,42 @@ const server = http.createServer(async (request, response) => {
     fs.appendFile("log_1.txt", buffer.join(" "), e => {
       if (e) console.log(e);
     });
+    clearInterval(loggingInterval);
   };
-  response.on("pipe", () => {
-    const user_agents = [];
-    let counter = 0;
-    const writeFile = () => {
-      user_agents.push({
-        ua: headers["user-agent"],
-        counter: counter,
-        code: response.statusCode
-      });
-      fs.appendFile(
-          "log_2.txt",
-          Object.values(user_agents[counter]).join("\n"),
-          e => {
-            if (e) console.log(e);
-          }
-      );
+
+  const logger = (req, res, next) => {
+    console.log(123);
+    const requestLogger = createWriteStream("./Logs/requestLog.txt", {
+      flags: "a"
+    });
+    const sendLogger = createWriteStream("./Logs/sendLog.txt", {
+      flags: "a"
+    });
+
+    const start_time = new Date();
+    let finished = false;
+
+    Logger.send(sendLogger, { req, res }, { date: start_time });
+
+    const finish_listener = () => {
+      finished = true;
+      const end_time = new Date();
+      const timeSpent = ((end_time - start_time) / 1000).toFixed(3);
+
+      Logger.send(sendLogger, { req, res }, { date: start_time, timeSpent });
+      Logger.request({ req, res }, requestLogger);
+
+      next();
     };
-    setInterval(() => {
-      if (user_agents.length) {
-        user_agents.forEach(user => {
-          if (user.ua && user.ua !== headers["user-agent"]) {
-            counter++;
-            writeFile();
-          }
-        });
-      } else {
-        writeFile();
-        counter++;
-      }
-    }, 1000);
-  });
+  };
+  logger();
   response.once("finish", finish_listener);
+
   response.once("close", () => {
     response.removeListener("finish", finish_listener);
     if (!finished) finish_listener();
   });
+
   ///Отдача статических файлов
   const full_path = join(__dirname, "assets", pathname);
 
