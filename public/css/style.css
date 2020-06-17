@@ -8,6 +8,7 @@
     --error-color: #d9534f;
 }
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -126,7 +127,6 @@ a {
     flex: 1;
 }
 
-/* Join Page */
 .join-container {
     max-width: 500px;
     margin: 80px auto;
@@ -176,6 +176,58 @@ a {
 .join-main .btn {
     margin-top: 20px;
     width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.enter-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.enter-element {
+    margin-bottom: 20px;
+}
+
+.redirect-link {
+    border: 1px solid deeppink;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.enter-btn {
+    width: 100px;
+    height: 40px;
+    background: purple;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.error-msg {
+    display: flex;
+    justify-content: center;
+}
+
+.mt {
+    display: inline-block;
+    margin-top: 40px;
 }
 
 @media (max-width: 700px) {
